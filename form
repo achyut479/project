@@ -18,7 +18,16 @@
         <label>password:</label>
         <input type ="password" id ="password"><br></br>
     </fieldset>
-</form>
-
+</form><br></br>
+<form action=""oninput="y.value=parsint(a.value)+parsint(b.value)+parsint(c.value)">
+    <label>enter number 1:</label>
+    <input type ="number" id ="a" value ="1"><br></br>
+    <label>enter number 2:</label>
+    <input type ="number" id ="b" value ="2"><br></br>
+    <label>enter number 3:</label>
+    <input type ="number" id ="c" value ="3"><br></br>
+    <label>sum of 3 number:</label>
+    <output name ="y" for ="a b c"></output>
+</form>"
 </body>
 </html>
