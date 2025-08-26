@@ -1,0 +1,18 @@
+!DOCTYPE html>
+<html>
+<head>
+    <title>css styling example</title>
+    <style>
+        h1 {
+            color:blue;
+        }
+        /* #para{
+            color :red;
+            font-size :40px;
+            font-family :cursive;
+        }
+        </style>
+</head>
+<body>
+    <p id ="paral">This is my youtube channel</p>
+    <h1 class ="head">welcome to LEGEND OF GAMER</h1>

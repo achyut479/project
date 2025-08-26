@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>css styling example</title>
+    <style>
+        h1 {
+            color:blue;
+        }
+        </style>
+</head>
+<body>
+    <h1 style ="color :blue; " aline ="center">welcome to css</h1>
+    <p style ="color :red; front size :20px; text aline :center">css is used to style the html page</p>
+    <p style ="color" :green; front size
