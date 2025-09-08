@@ -1,0 +1,24 @@
+input[type = "text"]{
+    border: 2px solid red;
+}
+input[type = "password"]{
+    border: 3px solid blue;
+}
+ul>li:first-child{
+    color: green;
+}
+h1+p{
+    font-size: 20px;
+    color : blue;
+}
+
+a:hover {
+    color: red;
+}
+li:nth-child(3){
+    color: orange;
+}
+div:not(.div){
+    border: 2px solid black;
+}
+
