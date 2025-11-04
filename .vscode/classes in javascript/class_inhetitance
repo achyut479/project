@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <h2>javascript class inheritance</h2>
+        <P>use the "extends" keyword to create a class as a child of another class.</P>
+        <P>use the "super()" method to call the constructor of the parent class.</P>
+        <p id="details"></p>
+        <script>
+            class car {
+                constructor(brand) {
+                    this.carname = brand;
+                }
+                present() {
+                    return "i have a " + this.carname;
+                }
+            }
+            class model extends car {
+                constructor(brand, mod) {
+                    super(brand);
+                    this.model = mod;
+                }
+                show() {
+                    return this.present() + ", it is a " + this.model;
+                }
+            }
+            let mycar = new model("ford", "mustang");
+            document.getElementById("details").innerHTML = mycar.show();
+</script>
+    </body>
