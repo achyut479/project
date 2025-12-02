@@ -1,0 +1,40 @@
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: blue;
+
+}
+#container {
+    width: 1000px;
+    height: 550px;
+    background-image: linear-gradient(red (0,0,0,0.5), blue (0,0,0,0.5) ), url(download.png);
+    margin: 20px auto;
+
+}
+#calculator {
+    width: 400px;
+    height: 500px;
+    background-color: white;
+    margin: 25px auto;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px 5px black;
+}
+#keyboard {
+    height: 400px;
+}
+.operator,
+.number,
+.empty {
+    width: 50%;
+    height: 50%;
+    float: left;
+    box-sizing: border-box;
+    border: 1px solid rgb(19, 30, 177);
+    font-size: 24px;
+    text-align: center;
+    line-height: 80px;
+    cursor: pointer;
+}
+.operator:active,
+.number:active {
+    font-size: 14px;
+}
